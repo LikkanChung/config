@@ -21,3 +21,5 @@
 	brutal = !git add -A && git commit --amend && git push -f
 	almost-brutal = !git add -A && git commit --amend
 	tree = log --all --graph --decorate --oneline
+[init]
+	defaultBranch = main
