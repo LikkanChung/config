@@ -6,3 +6,9 @@
 
 ## MySQL
   * Add `.my.cnf` file to `~`
+
+## Text Editors
+
+### Atom: Plugins
+  * Emmet
+  
