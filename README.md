@@ -14,8 +14,14 @@
 
 ## Text Editors
 
-### Atom: Plugins
-  * Emmet - The `keymap.cson` adds tab expansions for HTML, CSS, Nunjucks, and PHP. The file should be placed in `~/.atom`
+### Atom:
+  * Emmet - The `keymap.cson` adds tab expansions for HTML, CSS, Nunjucks, and PHP. The file should be placed in `~/.atom/`
+
+### VS Code:
+  * Add `settings.json` to:
+    * Windows `%APPDATA%\Code\User\settings.json`
+    * macOS `$HOME/Library/Application Support/Code/User/settings.json`
+    * Linux `$HOME/.config/Code/User/settings.json`
 
 ## Other Development Tools
 

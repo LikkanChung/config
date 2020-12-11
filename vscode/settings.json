@@ -1,0 +1,13 @@
+{
+    "emmet.includeLanguages": {
+        "njk": "html"
+    },
+    "files.associations": {
+        "*.njk": "html"
+    },
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "emmet.triggerExpansionOnTab": true,
+    "terminal.integrated.automationShell.osx": "/bin/zsh"
+}
