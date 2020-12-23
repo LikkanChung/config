@@ -13,7 +13,7 @@ then
     echo "Installing Oh My Zsh"
     echo "Backing up .zshrc to .zshrc.backup"
     cp ~/.zshrc ~/.zshrc.backup
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+    wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - --unattended | zsh
 else
     echo "Oh My Zsh already installed."
 fi
