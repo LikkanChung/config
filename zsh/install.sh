@@ -8,7 +8,8 @@ then
 else
     echo "zsh already installed."
 fi
-if [ -d "~/.oh-my-zsh" ]; then
+if [ ! -d "~/.oh-my-zsh" ] 
+then
     echo "Installing Oh My Zsh"
     echo "Backing up .zshrc to .zshrc.backup"
     cp ~/.zshrc ~/.zshrc.backup
