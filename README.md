@@ -12,6 +12,9 @@
   * `.bashrc` requires `.aliases` in the same directory
   * `.bash_profile` is required in Bash used by'Git for Windows'
 
+## Zsh
+  * Run the Bash script `./install.sh` to install Zsh and Oh-My-Zsh
+
 ## Text Editors
 
 ### Atom:
