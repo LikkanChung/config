@@ -1,6 +1,7 @@
 #!/bin/sh
 
-if [ ! command -v zsh --version | grep 'not found' &> /dev/null ]; then
+if ! command -v zsh >/dev/null 
+then
     echo "zsh not installed. Installing zsh"
     sudo apt install zsh
     zsh --version
