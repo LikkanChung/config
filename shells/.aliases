@@ -2,3 +2,6 @@ alias ll='ls -l'
 alias ls='ls -FG'
 alias la='ls -la'
 alias grep='grep --color'
+
+# Python
+alias pip=/usr/local/bin/pip3

@@ -102,3 +102,5 @@ source $ZSH/oh-my-zsh.sh
 source .aliases
 
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+
+export PATH="$HOME/Library/Python/3.8/bin:$PATH"
