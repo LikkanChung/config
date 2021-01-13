@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source .aliases
+source $HOME/.aliases
 
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 

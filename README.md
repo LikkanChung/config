@@ -1,8 +1,9 @@
 # My Config Files
 
 ## Git
-  * Add `.gitconfig` file to `~`
-  * Set global email: `git config --global user.email ""`
+  * Run the Bash script `./install.sh` to:
+    * Add `.gitconfig` file to `~`
+    * Set global email: `git config --global user.email ""`
 
 ## MySQL
   * Add `.my.cnf` file to `~`
