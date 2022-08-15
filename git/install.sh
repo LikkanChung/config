@@ -6,4 +6,4 @@ cp .gitconfig ~/.gitconfig
 echo "Config files installed:"
 ls -la ~/.gitconfig
 
-echo "Don't forget to set git email identiy: `git config --global user.email ...@...`"
+echo "Don't forget to set git email identiy: 'git config --global user.email ...@...'"
