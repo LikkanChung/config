@@ -104,3 +104,6 @@ source $HOME/.aliases
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 export PATH="$HOME/Library/Python/3.8/bin:$PATH"
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
