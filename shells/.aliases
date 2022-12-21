@@ -4,4 +4,5 @@ alias la='ls -la'
 alias grep='grep --color'
 
 # Python
-alias pip=/usr/local/bin/pip3
+alias pip=/usr/bin/pip3
+alias python=python3
